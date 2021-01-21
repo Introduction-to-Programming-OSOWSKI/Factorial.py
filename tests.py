@@ -5,12 +5,13 @@
 import main;
 import datetime;
 
-year = 2020
-month = 12
-day = 1
+year = 2021
+month = 1
+day = 21
 
 def test_code():
-    assert 0 > 1, "error"
+    assert main.factorial(5) == 120, "factorial(5) failed"
+    assert main.factorial(10) == 3628800, "factorial(10) failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"

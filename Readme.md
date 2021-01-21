@@ -1,16 +1,24 @@
-# **Assignment Title**  
+# **Factorial**  
 
 ## **Assignment Description**  
-
+Create a function called factorial() that returns the factorial of a given variable x.
 
 ## **Examples**  
->
+>factorial(5)  
+120  
+
+>factorial(10)  
+3628800
 
 ## **Limitations**  
+1 for loop  
+0 if  
 
 ## **Hints**  
+You will need an additional variable inside of the function.
 
 ## **Concepts**  
+Unit 1, Unit 2, for loops
 
 ---
 
